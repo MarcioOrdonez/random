@@ -36,7 +36,8 @@ def memoriaUsada(relatorio):
     for i in range (len(relatorio)):
         x=[]
         x=relatorio[i]
-        x.split('')
+        x=''.join(map(str,x))
+        #','.join(x)
         print(x)
         #x[2]=x[2]/1000000
         #relatorio[i]=x
